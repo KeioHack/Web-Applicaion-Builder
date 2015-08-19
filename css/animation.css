@@ -1,0 +1,83 @@
+
+.close_open_left{
+	opacity:0;
+	transition:all .5s;
+}
+
+
+.close_right{
+	opacity: 0;
+	z-index:-100;
+	transition:all .5s;
+}
+
+.open_right{
+	opacity: 0;
+	transition:all .5s;
+}
+
+
+.close_open_main{
+	width: 80%;
+	left:2.5%;
+	transitoin:all .5s;
+}
+
+.open_close_main{
+	width:80%;
+	right: 2.5%;
+	transition:all .5s;
+}
+
+.close_close_main{
+	width: 95%;
+	left:2.5%;
+	transition:all .5s;
+}
+
+
+.option_on{
+	opacity: .3;
+	/*z-index: -100;*/
+	transition:all .5s;
+}
+
+.option_on_settings{
+	right: 0;
+	transition:all .5s;
+	box-shadow: rgba(50,50,50,1)0 0 30px;
+}
+
+
+		#option_but:hover{
+			background-color: #ccc;
+		}
+
+
+		#option_but:hover > .inbox1{
+
+			transform:rotate(-45deg);
+			width: 33%;
+			top: 38%;
+			left: 15%;
+		
+		}
+		
+		#option_but:hover > .inbox3{
+		
+			transform:rotate(45deg);
+			width: 33%;
+			top: 52%;
+			left: 15%;
+		
+		}
+
+		#option_but:hover > .inbox2{
+		
+			transform:rotate(-180deg);
+			width: 58%;
+		
+		}
+
+
+

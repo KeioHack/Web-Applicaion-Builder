@@ -1,0 +1,127 @@
+
+/*ここからtag_board*/
+
+#tag_board{
+	height: 95%;
+	width: 15%;
+	position: fixed;
+	bottom:0%;
+	left:2.5%;
+	background-color: #fafafa;
+	box-sizing:border-box;
+	border:solid 1px rgb(200,200,200);
+	/*border-radius:5px;*/
+	box-shadow:rgba(100,100,100,.4) 0 0 4px;
+	transition:all .5s;
+/*	background-image: url(img/tags_bar.png);
+	-webkit-background-size: cover;
+	background-size: cover;*/
+}
+
+#tag_board img{
+	width: 100%;
+	height: auto;
+}
+
+#tag_board_but{
+	position: fixed;
+	width: 2%;
+	height: 90%;
+	bottom:2.5%;
+	left:-1%;
+	background-color: #eee;
+	border-radius:0 10px 10px 0;
+	transition:all .2s;
+	box-shadow:rgba(100,100,100,.4) 0 0 4px;
+}
+
+#tag_board_but:hover{
+	background-color: #ddd;
+	left:0;
+	box-shadow:rgba(100,100,100,.2) 0 0 4px;
+}
+
+
+.board_name{
+	margin: 10px auto;
+	width: 80%;
+	height: auto;
+/*	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+*/}
+
+.board_main{
+	height: calc(100% - 50px);
+	width: 90%;
+	margin: 0 auto;
+}
+
+.board_main ul{
+	height: 100%;
+	width: 100%;
+}
+
+.board_main ul li{
+	width: 100%;
+	height: calc((100% - 18%) / 18);
+	background-color: #ddd;
+	/*line-height: 40px;*/
+	text-align: center;
+	margin: 2% 0;
+	border:solid 1px #444;
+	box-sizing: border-box;
+	border-radius: 5px;
+	transition:all .1s;
+	box-shadow: rgba(100,100,100,.4)0 0 4px;
+}
+
+.board_main ul li:hover{
+	/*background-color: #cec;*/
+	background-color:#fff;
+	box-shadow: rgba(100,100,100,1)0 0 12px;
+}
+
+
+
+
+/*ここからstyle_board*/
+
+
+#style_board{
+	opacity: 1;
+	height: 95%;
+	width: 15%;
+	position: fixed;
+	bottom:0%;
+	/*opacity: 1;*/
+	z-index: -100;
+	right:2.5%;
+	background-color: #fafafa;
+	box-sizing:border-box;
+	border:solid 1px rgb(200,200,200);
+	/*border-radius:5px;*/
+	box-shadow:rgba(100,100,100,.4) 0 0 4px;
+}
+
+#style_board_but{
+	position: fixed;
+	opacity: 1;
+	width: 2%;
+	height: 90%;
+	bottom:2.5%;
+	right:-1%;
+	background-color: #eee;
+	border-radius:10px 0 0 10px ;
+	transition:all .2s;
+	box-shadow:rgba(100,100,100,.4) 0 0 4px;
+}
+
+#style_board_but:hover{
+	background-color: #ddd;
+	right:0;
+	box-shadow:rgba(100,100,100,.2) 0 0 4px;
+}
+
+
+

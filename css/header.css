@@ -1,0 +1,63 @@
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	height:5%;
+	width: 100%;
+	background-color: #444;
+	box-shadow:rgba(100,100,100,.8) 0 0 4px;
+}
+
+header img{
+	margin: 0 0 0 5%;
+	float: left;
+}
+
+header #option_but{
+	transition:all .2s;
+	height:100%;
+	float: right;
+	margin: 0;
+	/*background-color:rgba(75,150,75,1);*/
+	border-radius: 50%;
+	background-color: #666;
+}
+
+header #option_but .inbox1{
+	position: relative;
+		transition:all 0.5s ;
+		top: 30%;
+		left: 22%;
+		height: 4%;
+		width: 60%;
+		display: block;
+		/*background-color: hsl(0.0, 0.0%, 100.0%);*/
+		background-color:rgba(75,150,75,1);
+		border-radius: 10px;
+}
+
+header #option_but .inbox2{
+		transition:all 0.5s;
+		position: relative;
+		top: 45%;
+		left: 22%;
+		height: 4%;
+		width: 60%;
+		display: block;
+		/*background-color: hsl(0.0, 0.0%, 100.0%);*/
+		background-color:rgba(75,150,75,1);
+		border-radius: 10px;
+	}
+	
+header #option_but .inbox3{
+		transition:all 0.5s;
+		position: relative;
+		top: 60%;
+		left: 22%;
+		height: 4%;
+		width: 60%;
+		display: block;
+		/*background-color: hsl(0.0, 0.0%, 100.0%);*/
+		background-color:rgba(75,150,75,1);
+		border-radius: 10px;
+	}

@@ -1,0 +1,86 @@
+main{
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	z-index: -100;
+	transition:all .5s;
+}
+
+/*ここからmain_content*/
+
+.main_content{
+	position: fixed;
+	height: 95%;
+	width: 65%;
+	bottom:0%;
+	left:17.5%;
+	background-color: #fafafa;
+	box-sizing:border-box;
+	border:solid 1px rgb(200,200,200);
+	/*border-radius:5px;*/
+	box-shadow:rgba(100,100,100,.4) 0 0 4px;
+	transition:all .5s;
+}
+
+
+/*ここから*/
+
+/*ここまで*/
+
+
+#white_tab{
+	width: 100%;
+	height: 2.5%;
+	float: left;
+	background-color: #77aa77;
+}
+
+#tabs{
+	width: 95%;
+	height: 100%;
+	float: left;
+
+}
+
+#tab_add{
+	height: 100%;
+	width: 5%;
+	float: right;
+}
+
+#tab_add img{
+	float: right;
+}
+
+.tab{
+	height:100%;
+	float: left;
+	width: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	border:solid 1px #ddd;
+	text-align: center;
+}
+
+.tab_on{
+	height: 100%;
+	float: left;
+}
+
+#white_board{
+	width: 100%;
+	height: 67.5%;
+	float: left;
+}
+
+#editor{
+	width: 100%;
+	height: calc(30% - 1px); 
+	float: left;
+	box-zising:border-box;
+	border-top:solid 1px rgb(200,200,200);
+	/*border-bottom:solid 1px rgb(200,200,200);*/
+	background-color: #fafafa;
+	border-radius: 0px 0px 5px 5px;
+
+}
