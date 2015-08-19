@@ -16,6 +16,21 @@ $(function(){
 
 		// $(".tab").addClass("tab_on");
 
-	})
+
+
+	});
+
+
+	onContextmenu="return false";
+
+	$("main").click(function(e){
+  		if(e.which == 3){
+    alert("ok!");
+  }
+});
+
+
+
+
 
 });
